@@ -1,109 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Omnifood is a fictitious premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
-	<link rel="stylesheet" type="text/css" href="vendors/css/node_modules/normalize.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
-	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-	<title>mk-tech</title>
-</head>
-<body>
-	
-	<!-- Heading section -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+		<link rel="shortcut icon" href="assets/ico/favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
 
-	<header>
-		<nav>
-			<div class="row"> <!-- Keep within 1140px width -->
-				<img src="resources/img/llogo.png" alt="Omnifood Logo" class="logo">
-				<ul class="main-nav js--main-nav">  
-					<li><a href="#features">О Нас</a></li>
-					<li><a href="#works">Услуги</a></li>
-					<li><a href="#cities">Проекты</a></li>
-				</ul>
-				<a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a> <!-- No href -->
-			</div>
-		</nav>
-		<div class="hero-text">
-			<h1>Помогаем бизнесу<br> в создании цифровых продуктов.</h1>
-			<a class="btn btn-full js--scroll-to-plans" href="#">Да, заказать</a>
-			<a class="btn btn-ghost js--scroll-to-start" href="#">Расскажите о ценах</a>
-		</div>
-	</header>
+    <title>MK-TECH</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">Contacts</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h4>HELLO PEOPLE, WE ARE</h4>
+					<h1>mk-tech</h1>
+					<h4>PROFESSIONAL WEB DEVELOPERS TEAM</h4>
+				</div>
+			</div><! --/row -->
+	    </div> <!-- /container -->
+	</div><! --/headerwrap -->
 	
-	<!-- Features section -->
+	<section id="works"></section>
+	<div class="container">
+		<div class="row centered mt mb">
+			<h1>OUR PORTFOLIO</h1>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#"><img src="assets/img/portfolio/folio01.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#"><img src="assets/img/portfolio/folio02.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#"><img src="assets/img/portfolio/folio03.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#"><img src="assets/img/portfolio/folio06.png" class="img-responsive"></a>
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
 	
-	<section class="features js--features" id="features"> <!-- Use for sticky nav activation --> 
-		<div class="row">
-			<h2>Делаем быстро &mdash; и качественно</h2> <!-- Longer dash + only use one h1, so using h2 -->
-			<p class="long-copy">
-				Привет, мы mk-tech, компания которая поможет вашему бизнесу выйти на новый уровень. Мы знаем, что вам нужно. Мы сделаем это быстро и качественно. Ниже вы увидите перечень наших услуг!
-			</p>
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-twitter"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-tumblr"></i></a>
+				</div>
+			
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/social -->
+
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
+					<p><b>WEB DEVELOPERS</b></p>
+				</div>
+			
+				<div class="col-lg-4">
+					<p>Help solve your problems</p>
+				</div>
+				<div class="col-lg-4">
+					<p>mzilkin@gmail.com</p>
+				</div>
+			</div>
 		</div>
-		<!-- Grid using col -->
-		<div class="row js--wp-1">
-			<div class="col span-1-of-4 box">
-				<!-- Adding icons -->
-				<i class="ion-ios-calendar-outline icon-big"></i>
-				<h3>Одностраничники</h3>
-				<p>Возьмем на себя полный цикл разработки одностраничноого сайта, начиная от дизвйна заканчивая программированием</p>
-			</div>
-			<div class="col span-1-of-4 box">
-				<i class="ion-ios-stopwatch-outline icon-big"></i>
-				<h3>Полноценные Web-приложения</h3>
-				<p>Поможем в проектированиии backend и frontent части для вашего сайта, поможем с настройкой базы данных и продвижении вашего сайта</p>
-			</div>
-			<div class="col span-1-of-4 box">
-				<i class="ion-ios-nutrition-outline icon-big"></i>
-				<h3>Мобильные приложения</h3>
-				<p>Спроектируем мобильное приложение любой сложности начиная от карты экранов и переходов между ними, заканчивая интеграцией с разными сервисами</p>
-			</div>
-			<div class="col span-1-of-4 box">
-				<i class="ion-ios-cart-outline icon-big"></i>
-				<h3>Поддержка 365 дней</h3>
-				<p>Воспользовавшись нашими услугами Вы можете расчитывать на полноценную поддержку вашего сайта или мобильного приложения в течении года, после передачи его Вам</p>
-			</div>
-		</div>
-	</section>
+	</div><! --/footerwrap -->
 	
 
-	<!-- Footer section -->
 
-	<footer>
-		<div class="row">
-			<div class="col span-1-of-2">
-				<ul class="footer-nav">
-					<li>
-						<a href="#">О нас</a>
-					</li>
-					<li>
-						<a href="#">наш Блог</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col span-1-of-2">
-				<ul class="social-icons">
-					<li><a href="#"><i class="ion-social-facebook"></i></a></li>
-					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
-					<li><a href="#"><i class="ion-social-instagram"></i></a></li>
-					<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</footer>
-
-	<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-	<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="vendors/js/jquery.waypoints.min.js"></script>
-	<script src="resources/js/scripts.js"></script> <!-- Sticky nav -->
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="vendors/js/gmaps.js"></script>
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
