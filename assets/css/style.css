@@ -14,8 +14,17 @@
    ========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+    font-family: "Mr-robot";
+    src: url(../fonts/MR\ ROBOT.ttf) format("truetype");
+}
 
+@font-face {
+	font-family: "myFirstFont";
+	src: url(../fonts//MrRobot.otf);
+  }
 
+§
 ::-moz-selection {
     background: #f2c2c9;
     color: #a4003a;
@@ -93,14 +102,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #d00e0e;
+	color: white;
 	background-color: transparent;
 	border-bottom: 2px solid #1abc9c;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #d00e0e;
-	font-size: 18px;
+	color: white;
+	font-size: 24px;
 }
 
 /* ==========================================================================
@@ -108,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/bbg.png) no-repeat center top;
+	background: url(../img/qwer.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -236,4 +245,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+.hello-people {
+	font-size: 36px;
+	font-weight: 600 !important;
+}
+
+.subtitle {
+	font-size: 32px;
+	font-weight: 600 !important;
+}
+
+.logo {
+	font-size: 182px !important;
+	color: #a4003a !important;
+}
+
+.headerwrap {
+	margin-bottom: 100px;
+}
+
+.header_outer_wrap {
+	position: absolute;
+	left: 100px;
+	bottom: 450px;
 }
