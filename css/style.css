@@ -270,6 +270,32 @@ footer p {
     opacity: 0.8;
 }
 
+.about-us-wrapper {
+    display: flex;
+}
+
+.a {
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.b {
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.c {
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.about-us-text {
+    margin-left: 43%;
+}
+
 
 /* EXTRAS
  * =================================================================== */
