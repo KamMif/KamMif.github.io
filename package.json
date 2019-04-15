@@ -1,0 +1,24 @@
+{
+  "name": "KamMif.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamMif/KamMif.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamMif/KamMif.github.io/issues"
+  },
+  "homepage": "https://github.com/KamMif/KamMif.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
