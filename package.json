@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/KamMif/KamMif.github.io#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.6"
   }
 }
