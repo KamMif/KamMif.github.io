@@ -1695,3 +1695,12 @@ a {
   overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
+
+.subheader_section_text_work {
+  color: lightcoral;
+  font-size: 26px !important;
+}
+
+.work_with_best {
+  color: black !important;
+}

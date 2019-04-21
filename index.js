@@ -1,17 +1,14 @@
 const express = require('express');
-const bodyParser = require("body-parser");
 
 const app = express();
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
-// in latest body-parser use like below.
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.urlencoded())
 
-app.post("/", function (request, response) {
-    console.log(request);
-    response.redirect('/');
-});
+
+app.post('/', (req, res) => {
+    console.log(req.body);
+    res.end()
+})
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
